@@ -33,5 +33,15 @@
             {% endif %}
             <span class="blinking-cursor">|</span>
         </p>
+        {%- if include.footer -%}
+            <p class="about-font-default text-right">
+                {%- if page.edit -%}
+                    <i class="fa fa-calendar-check-o about-font-default" aria-hidden="true"></i>&nbsp;{{- page.edit -}}
+                {%- endif -%}
+                {%- if site.author.name -%}
+                    &nbsp;<i class="fa fa-user about-font-default" aria-hidden="true"></i>&nbsp;{{- site.author.name -}}
+                {%- endif -%}
+            </p>
+        {%- endif -%}
     </div>
 </div>
