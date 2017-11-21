@@ -114,7 +114,7 @@ css: '/css/extend-home.css'
       Tags:
       {% if site.link-tags %}
       {% for tag in post.tags %}
-      <a href="{{ site.baseurl }}/tags/#{{ tag }}">{{ tag }}</a>
+      <a href="{{ site.baseurl }}/tags#{{ tag }}">{{ tag }}</a>
       {% endfor %}
       {% else %}
         {{ post.tags | join: ", " }}
