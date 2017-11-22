@@ -1,13 +1,13 @@
 ---
 layout: page
-title:	PowerShell Resources
+title: A Journey to the Powershell Citadel
 subtitle: All important places you need to know for learning.
 permalink: "powershell-resources"
 excerpt: "This page represents my favorite list of powershell resources. When you start learning a new language you
 often get confused by all the different guides, standards and best practices. So I started collecting all important
 sources you need to know."
-image: # /path/to/img
-show-avatar:  #(false) | true
+image: "/img/image/ps-journey.jpg"
+show-avatar: true
 bigimg:	# /path/to/img - or multiple entries <- "Path": "Description">
   - "/img/bigimg/res-posh.jpg" : "Photo by Eugenio Mazzone on Unsplash"
 category: Resources
@@ -20,20 +20,24 @@ edit: "21-11-2017"
 
 {% include about.html footer=true %}
 
-# The Journey Begins
+# The Journey Begins now young Novice
 
 In this section you find the most basic stuff. It's aimed to help beginners who just got in touch with powershell.
 All external links refer to the latest production ready Powershell version. This is currently the version `5.1`.
 
-* [Official Documentation](https://docs.microsoft.com/en-us/powershell) - Microsoft recently moved all the
-  Powershell documentation to [docs.microsoft.com](https://docs.microsoft.com).
-* [Powershell Reference](https://docs.microsoft.com/en-us/powershell/scripting/powershell-scripting?view=powershell-5.1) -
-  If you need details about a specific function or cmdlets you can find it there. The Reference is grouped by the built
-  in modules. You can expand each group and select the individual help page of each function.
-* [About Pages](https://docs.microsoft.com/de-de/powershell/module/microsoft.powershell.core/about/about_aliases?view=powershell-5.1) -
-  The docs does not only contain a reference of all the built in functions. It also contains the so called *About* pages.
-  These pages explain specific concepts and language related topics. You can find them in a separate *about* section
-  of the **Microsoft.PowerShell.Core** module reference. The titles always starts with *about_* and the specific name.
+* [Official Documentation] - Microsoft recently moved all the Powershell documentation to [docs.microsoft.com].
+* [Powershell Reference] - If you need details about a specific function or cmdlets you can find it there. The
+  Reference is grouped by the built in modules. You can expand each group and select the individual help page of
+  each function.
+* [About Pages] - The docs does not only contain a reference of all the built in functions. It also contains the so
+  called *About* pages. These pages explain specific concepts and language related topics. You can find them in a
+  separate *about* section of the **Microsoft.PowerShell.Core** module reference. The titles always starts with
+  *about_* and the specific name.
+
+[Official Documentation]: https://docs.microsoft.com/en-us/powershell
+[docs.microsoft.com]: https://docs.microsoft.com
+[Powershell Reference]: https://docs.microsoft.com/en-us/powershell/scripting/powershell-scripting?view=powershell-5.1
+[About Pages]: https://docs.microsoft.com/de-de/powershell/module/microsoft.powershell.core/about/about_aliases?view=powershell-5.1
 
 {: .box-note}
 <i class="fa fa-commenting icon-blue" aria-hidden="true"></i> **NOTE:** You can also display the *about_* pages with
@@ -45,15 +49,15 @@ a topic name and use the function again like this: `Get-Help about_Functions`.
 You can't learn Powershell like every other language if you don't use it. So try to solve basic tasks with Powershell.
 Google around or ask questions in communities like:
 
-* [Stack Overflow](https://stackoverflow.com/questions/tagged/powershell)
+* [StackOverflow](https://stackoverflow.com/questions/tagged/powershell)
 * [Powershell.org](https://powershell.org/forums)
 
-# Intermediate
-
+# Acolyte
 Once you got familiar with the basic powershell concepts start discovering advanced techniques like *functions*,
 *modules*, *classes*, *types*, *Extended Type System*, *Powershell Remoting*, *jobs*, *Package Management*.
 
 ## It's all about the style!
+
 As soon as you managed to spell `Powershell` please respect the [PowerShell Best Practices and Style Guide](https://github.com/PoshCode/PowerShellPracticeAndStyle).
 Unfortunately there is no standard *PEP8* in python, but this is the most respected and active one. Trust me - it's
 maintained by all the experts out there. Just read it, understand it, adopt it and use whatever you can.
@@ -61,10 +65,16 @@ maintained by all the experts out there. Just read it, understand it, adopt it a
 {: .box-warning}
 <i class="fa fa-bolt icon-yellow" aria-hidden="true"></i> **IMPORTANT:** There is nothing worse than reading an ugly
  piece of code. And yes, it works but it's impossible to read, understand, review, maintain and makes no fun!
+
 ## Important Modules
 
-- [Pester]()
-- [playPS]()
+* [PSScriptAnaylzer] - Static code checker for PowerShell modules and scripts.
+* [Pester] - Test and mock framework
+* [platyPS] - Write PowerShell External Help in Markdown.
+
+[PSScriptAnaylzer]: https://github.com/PowerShell/PSScriptAnalyzer
+[Pester]:https://github.com/pester/Pester
+[platyPS]: https://github.com/PowerShell/platyPS
 
 ## Tools
 
@@ -92,26 +102,33 @@ need to maintain any additional infrastructure and they are free for public repo
 with Phabricator as *Git Server* and project coordination. If you take this path you definitely need a build server
 like Jenkins.
 
-# Grand Maester
+# Maester
 
 Now you mastered the Powershell concepts, know advanced stuff like Powershell remoting, Desired Sate Configuration
 and important additional modules. Now it's important to keep up to date and network. Get input from others and
 spread the work of powershell while teaching others!
 
-## Expert Blogs
+## Gran Master Blogs
 
-- [dille.name](http://dille.name) - An awesome Germany based devops Engineer and Docker Captain with outstanding
+* [dille.name](http://dille.name) - An awesome Germany based DevOps Engineer and Docker Captain with outstanding
   Microsoft and Powershell knowledge.
-- [DonJones.com](https://donjones.com/) - If you never heard about DonJones I can't help you. He is one of the biggest
+* [DonJones.com](https://donjones.com/) - If you never heard about DonJones I can't help you. He is one of the biggest
   maesters in the Powershell citadel and a great inspiration.
-- [Kevin Marquette on PowerShell Theory](https://kevinmarquette.github.io/) - A great blog about various Powershell
+* [Kevin Marquette on PowerShell Theory](https://kevinmarquette.github.io/) - A great blog about various Powershell
   topics.
-- [rkeithhill.wordpress.com](rkeithhill.wordpress.com) -
-- [xainey.github.io](https://xainey.github.io//)- Michael Willis blog contains great articles about powershell classes,
+* [rkeithhill.wordpress.com](rkeithhill.wordpress.com) -
+* [xainey.github.io](https://xainey.github.io//)- Michael Willis blog contains great articles about powershell classes,
   module creation and building frontend for powershell. It's high quality content and easy to follow expert topics.
 
-## Get in touch with other experts
+## Get in touch with the Archmaesters
 
 Take a look at the [PowerShell Slack Team](http://slack.poshcode.org/) if your searching other active powershell experts.
 
 # Additional Resources
+
+* [Writing Modules]- Resources for writing Powershell Modules. from
+  *Writing PowerShell Modules: Tips, Tools, and Best Practices session at the 2017 PowerShell + DevOps Global Summit*
+* [Awesome Powershell] - A curated list of delightful PowerShell packages and resources.
+
+[Writing Modules]: https://github.com/RamblingCookieMonster/WritingModules
+[Awesome Powershell]: https://github.com/janikvonrotz/awesome-powershell
