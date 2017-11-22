@@ -18,7 +18,7 @@ comments: true
 edit: "21-11-2017"
 ---
 
-{% include about.html footer=true %}
+{% include about.html footer=true readingtime=true%}
 
 # The Journey Begins now young Novice
 
