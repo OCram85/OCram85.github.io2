@@ -46,7 +46,7 @@ All external links refer to the latest production ready PowerShell version. This
 [The Monad Manifesto]: https://www.gitbook.com/book/devops-collective-inc/the-monad-manifesto-annotated/details
 
 {: .box-note}
-<i class="fa fa-commenting icon-blue" aria-hidden="true"></i>**NOTE:** You can also display the *about_* pages with
+<i class="fa fa-commenting icon-blue" aria-hidden="true"></i> **NOTE:** You can also display the *about_* pages with
 a PowerShell function itself. To get a list of all about pages just use `Get-Help about_*`. All you need to to is pick
 a topic name and use the function again like this: `Get-Help about_Functions`.
 
@@ -64,8 +64,8 @@ Google around or ask questions in communities like:
 
 # Acolyte
 
-Once you got familiar with the basic concepts start discovering advanced techniques like *functions*,
-*modules*, *classes*, *types*, *Extended Type System*, *PowerShell Remoting*, *jobs*, *Package Management*.
+Once you got familiar with the basic concepts start discovering advanced techniques like *Functions*,
+*Modules*, *Classes*, *Types*, *Extended Type System*, *PowerShell Remoting*, *Jobs*, *Package Management*.
 
 ## It's all about the style
 
@@ -120,7 +120,7 @@ Now you mastered the core concepts, know advanced stuff like *PowerShell Remotin
 and important additional modules. Now it's important to keep up to date and network. Get input from others and
 spread the work of PowerShell while teaching others!
 
-## Gran Maester Blogs
+## Grand Maester Blogs
 
 * [dille.name] - An awesome DevOps Engineer and Docker Captain with outstanding
   Microsoft and PowerShell knowledge.
