@@ -4,6 +4,7 @@ branches:
   only:
     - jekyll
     - dev
+    - bundlertest
 
 skip_tags: true
 
