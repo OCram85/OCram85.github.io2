@@ -15,34 +15,32 @@ css: '/css/extend-home.css'
 
 <div class="row text-center">
   <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
-    <a href="https://github.com/{{- gh-user -}}/{{- gh-project -}}" class="project-link">
-      <div class="project-card">
-        {%- assign gh-user = "OCram85"-%}
-        {%- assign gh-project = "Ponduit" -%}
-        <div class="project-card-front">
-          <span class="fa-stack fa-4x">
-            <i class="fa fa-circle fa-stack-2x stack-color"></i>
-            <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4>Ponduit</h4>
-          <hr class="seperator">
-          <p class="text-muted">A simple Phabricator Conduit client made with Powershell.</p>
-          <hr class="seperator">
-          <img src="https://img.shields.io/github/forks/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Fork" alt="Github" title="Github Forks">
-          <img src="https://img.shields.io/github/stars/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Stars" alt="Github" title="Github Stars">
-        </div>
-      </div>
-    </a>
+    <div class="project-card">
+      {%- assign gh-user = "OCram85"-%}
+      {%- assign gh-project = "Ponduit" -%}
+      <a target="_blank" href="https://github.com/{{- gh-user -}}/{{- gh-project -}}" class="project-link" title="Go to Github Poject Page">
+        <span class="fa-stack fa-4x">
+          <i class="fa fa-circle fa-stack-2x stack-color"></i>
+          <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
+        </span>
+        <h4>{{- gh-project -}}</h4>
+        <hr class="seperator">
+        <p class="text-muted">A simple Phabricator Conduit client made with Powershell.</p>
+        <hr class="seperator">
+        <img src="https://img.shields.io/github/forks/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Fork" alt="Github" title="Github Forks">
+        <img src="https://img.shields.io/github/stars/{{- gh-user -}}/{{- gh-project -}}.svg?style=social&label=Stars" alt="Github" title="Github Stars">
+      </a>
+    </div>
   </div>
   <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
     <div class="project-card">
-    {%- assign gh-project = "PSCoverage" -%}
-      <a target="_blank" href="https://github.com/OCram85/PSCoverage" class="project-link">
+      {%- assign gh-project = "PSCoverage" -%}
+      <a target="_blank" href="https://github.com/{{- gh-user -}}/{{- gh-project -}}" class="project-link" title="Go to Github Poject Page">
         <span class="fa-stack fa-4x">
           <i class="fa fa-circle fa-stack-2x stack-color"></i>
           <i class="fa fa-file-code-o fa-stack-1x fa-inverse"></i>
         </span>
-        <h4>PSCoverage</h4>
+        <h4>{{- gh-project -}}</h4>
         <hr class="seperator">
         <p class="text-muted">A code coverage interface for coveralls.io. Based on Pester coverage reports.</p>
         <hr class="seperator">
@@ -54,12 +52,12 @@ css: '/css/extend-home.css'
   <div class="col-md-4 col-md-offset-0 col-sm-4 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center">
     <div class="project-card">
     {%- assign gh-project = "PSCredentialStore" -%}
-      <a target="_blank" href="https://github.com/OCram85/PSCredentialStore" class="project-link">
+      <a target="_blank" href="https://github.com/{{- gh-user -}}/{{- gh-project -}}" class="project-link" title="Go to Github Poject Page">
         <span class="fa-stack fa-4x">
           <i class="fa fa-circle fa-stack-2x stack-color"></i>
           <i class="fa fa-user-secret fa-stack-1x fa-inverse"></i>
         </span>
-        <h4>PSCredentialStore</h4>
+        <h4>{{- gh-project -}}</h4>
         <hr class="seperator">
         <p class="text-muted">A simple credential manager to store and reuse multiple credential objects.</p>
         <hr class="seperator">
