@@ -21,7 +21,7 @@ edit: "21-11-2017"
 
 {% include about.html footer=true readingtime=true %}
 
-# The Journey Begins now young Novice
+# The Journey Begins Now Young Novice
 
 In this section you find the most basic stuff. It's aimed to help beginners who just got in touch with PowerShell.
 All external links refer to the latest production ready PowerShell version. This is currently the version `5.1`.
@@ -83,10 +83,14 @@ no fun!
 * [PSScriptAnalyzer] - Static code checker for PowerShell modules and scripts.
 * [Pester] - Test and mock framework
 * [platyPS] - Write PowerShell External Help in Markdown.
+* [Plaster] - Plaster is a template-based file and project generator written in PowerShell.
+* [psake] - A build automation tool.
 
 [PSScriptAnalyzer]: https://github.com/PowerShell/PSScriptAnalyzer
 [Pester]:https://github.com/pester/Pester
 [platyPS]: https://github.com/PowerShell/platyPS
+[Plaster]: https://github.com/PowerShell/Plaster
+[psake]: https://github.com/psake/psake
 
 ## Tools
 
