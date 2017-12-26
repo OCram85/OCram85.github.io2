@@ -11,7 +11,7 @@ comments: true
 social-links: true
 ---
 
-I just started the resources page called [A Journey to the PowerShell Citadel](/powershell-resources). It's a
+I just started the resources page called _[A Journey to the PowerShell Citadel](/powershell-resources)_. It's a
 maintained list of PowerShell resources split into 3 main parts / levels:
 
 - **Novice:** Learn the most basic parts of powershell and know where to find the fundamental docs.
