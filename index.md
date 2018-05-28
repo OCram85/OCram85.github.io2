@@ -3,6 +3,8 @@ layout: page
 title: Maintenance Mode
 show-avatar: false
 subtitle: I'm currently updating my blog to respect the new General Data Protection Regulation.
+redirect_to:
+- https://Ocram85.com
 ---
 
 {: .box-warning}
